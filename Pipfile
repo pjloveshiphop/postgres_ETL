@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sql-queries = "*"
+psycopg2-binary = "*"
+panda = "*"
+pandas = "*"
+ipython-sql = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
